@@ -3,7 +3,7 @@ My road to DevOps | Linux, AWS, Scripting, Jenkins, Ansible, Docker, K8s, Projec
 
 ## Table of Contents
 - [Chocolatey](#Chocolatey)
-- [Installing Softwares via Chocolatey](#Softwares)
+- [Softwares](#Softwares)
 - [Acknowledgments](#acknowledgments)
 
 ## Chocolatey
