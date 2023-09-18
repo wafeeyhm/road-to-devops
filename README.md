@@ -4,6 +4,7 @@ My road to DevOps | Linux, AWS, Scripting, Jenkins, Ansible, Docker, K8s, Projec
 ## Table of Contents
 - [Chocolatey](#Chocolatey)
 - [Softwares](#Softwares)
+- [Sign-Up](#Sign-Up)
 - [Acknowledgments](#acknowledgments)
 
 ## Chocolatey
@@ -20,6 +21,10 @@ My road to DevOps | Linux, AWS, Scripting, Jenkins, Ansible, Docker, K8s, Projec
 - choco install intellijidea-community -y
 - choco install vscode -y
 - choco install sublimetext3.app -y
+
+## Sign-Up
+- Sign up to [docker hub](https://hub.docker.com)
+- Sign up to Godaddy
 
 ## Acknowledgments
 - Thanks to [imnowdevops](https://github.com/imnowdevops) for their inspiration.
