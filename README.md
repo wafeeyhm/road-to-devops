@@ -8,6 +8,7 @@ My road to DevOps | Linux, AWS, Scripting, Jenkins, Ansible, Docker, K8s, Projec
 - [Scenario](#Scenario)
 - [Tools](#Tools)
 - [Architecture](#Architecture)
+- [Notes](#Notes)
 - [Acknowledgments](#acknowledgments)
 
 ## Chocolatey
@@ -54,6 +55,12 @@ My road to DevOps | Linux, AWS, Scripting, Jenkins, Ansible, Docker, K8s, Projec
 - RABBITMQ - will be treated as a queuing agent to connect the applications together.
 - MEMCACHED - is a database caching service, that will be connected to MySQL.
 - MYSQL - will be the main database to store all the information.
+
+## Notes
+- For the automation stack, I will be using Vagrant to automate the setting up of the virtual machine, and then I will be using bash script to create the architecture.
+- Set up the tools, cd into the vagrant dir, bring up the VMs, validate all the machines and able to communicate with each other and finally set up all the services in this order (MySQL, Memcached, RabbitMQ, Tomcat and Nginx).
+- Build the app and deploy
+- Verify from the browser
 
 ## Acknowledgments
 - Thanks to [imnowdevops](https://github.com/imnowdevops) for their inspiration.
