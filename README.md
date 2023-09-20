@@ -7,6 +7,7 @@ My road to DevOps | Linux, AWS, Scripting, Jenkins, Ansible, Docker, K8s, Projec
 - [About](#About)
 - [Scenario](#Scenario)
 - [Tools](#Tools)
+- [Architecture](#Architecture)
 - [Acknowledgments](#acknowledgments)
 
 ## Chocolatey
