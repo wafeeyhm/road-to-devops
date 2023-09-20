@@ -47,6 +47,13 @@ My road to DevOps | Linux, AWS, Scripting, Jenkins, Ansible, Docker, K8s, Projec
 - Baseline for upcoming projects
 - Real work project setup locally
 
+## Architecture
+- NGINX - will be used as a load balancer, it will route the request to the TOMCAT SERVER.
+- TOMCAT - java web application service, most of the codes will be here.
+- RABBITMQ - will be treated as a queuing agent to connect the applications together.
+- MEMCACHED - is a database caching service, that will be connected to MySQL.
+- MYSQL - will be the main database to store all the information.
+
 ## Acknowledgments
 - Thanks to [imnowdevops](https://github.com/imnowdevops) for their inspiration.
 - This project uses [DDC Material](https://github.com/imnowdevops/ddc-material).
