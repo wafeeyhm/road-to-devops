@@ -9,23 +9,10 @@ versions:
   - <version>
 ---
 
-{% comment %}
-Follow the instructions in https://docs.github.com/contributing/writing-for-github-docs/content-model#quickstart to write this article.
-Great intros clarify who the tutorial is intended for, state what the user will accomplish, and state the technologies that will be used.
-For product callout info, see https://github.com/github/docs/tree/main/content#product
-For product version instructions, see https://github.com/github/docs/tree/main/content#versioning
-Remove these comments from your article file when you're done writing
-{% endcomment %}
-
 ## Introduction
 
 {% comment %}
-The tutorial introduction should include the following in a short paragraph -
-
-- Clarify audience
-- State prerequisites and prior knowledge needed
-- State what the user will accomplish or build and the user problem it solves
-- Link to an example of the project the user will complete
+- First we will be setting up HTTPD service in CentOS and deploy some free HTML templates.
 {% endcomment %}
 
 ## Step 1: Action the user will take
