@@ -1,67 +1,64 @@
-# road-to-devops
-My road to DevOps | Linux, AWS, Scripting, Jenkins, Ansible, Docker, K8s, Projects and ChatGPT
+---
+title: Tutorial title
+shortTitle: <subject> # Max 31 characters
+intro: 'Article intro. See tips for a great intro below'
+product: "{{ optional product callout }}"
+type: tutorial
+topics:
+  - <topic> # One or more from list of allowed topics: https://github.com/github/docs/blob/main/data/allowed-topics.js
+versions:
+  - <version>
+---
 
-## Table of Contents
-- [Chocolatey](#Chocolatey)
-- [Softwares](#Softwares)
-- [About](#About)
-- [Scenario](#Scenario)
-- [Tools](#Tools)
-- [Architecture](#Architecture)
-- [Notes](#Notes)
-- [Acknowledgments](#acknowledgments)
+{% comment %}
+Follow the instructions in https://docs.github.com/contributing/writing-for-github-docs/content-model#quickstart to write this article.
+Great intros clarify who the tutorial is intended for, state what the user will accomplish, and state the technologies that will be used.
+For product callout info, see https://github.com/github/docs/tree/main/content#product
+For product version instructions, see https://github.com/github/docs/tree/main/content#versioning
+Remove these comments from your article file when you're done writing
+{% endcomment %}
 
-## Chocolatey
-- Tools to install software through the command line
-- Download it from [here](https://chocolatey.org/install)
+## Introduction
 
-## Softwares
-- choco install virtualbox --version=7.0.8 -y
-- choco install vagrant --version=2.3.4 -y
-- choco install git -y
-- choco install corretto11jdk -y
-- choco install maven -y
-- choco install awscli -y
-- choco install intellijidea-community -y
-- choco install vscode -y
-- choco install sublimetext3.app -y
+{% comment %}
+The tutorial introduction should include the following in a short paragraph -
 
-## About
-- I'll be practising a multi-tier web application stack
-- The setup will be locally on a laptop/desktop
-- I'll be practising containerized my applications, deploy the applications on kubernets cluster, etc
-- I'll be building a social networking app with multiple services
+- Clarify audience
+- State prerequisites and prior knowledge needed
+- State what the user will accomplish or build and the user problem it solves
+- Link to an example of the project the user will complete
+{% endcomment %}
 
-## Scenario
-- Local setup - automated, repeatable and Code
-- There will be multiple services running like database - MySql, PostgreSQL. Web services - Apache Engine. Application services - Tomcat
-- Runbook/setup document
-- The architecture will NGINX, TOMCAT, RABBITMQ, MEMCACHED, MYSQL
+## Step 1: Action the user will take
 
-## Tools
-- Hypervisor - Oracle VM virtualbox
-- Automation - Vagrant
-- CLI - Git Bash
-- IDE - Visual Studio Code / Notepad ++
+{% comment %}
+In one sentence, describe what the user will do in this step
+Steps should break down the tasks the user will complete in sequential order
+Avoid replicating conceptual information that is covered elsewhere, provide inline links instead. Only include conceptual information unique to this use case.
+{% endcomment %}
 
-## Objective
-- VM automation locally
-- Baseline for upcoming projects
-- Real work project setup locally
+### Task chunk
 
-## Architecture
-- NGINX - will be used as a load balancer, it will route the request to the TOMCAT SERVER.
-- TOMCAT - java web application service, most of the codes will be here.
-- RABBITMQ - will be treated as a queuing agent to connect the applications together.
-- MEMCACHED - is a database caching service, that will be connected to MySQL.
-- MYSQL - will be the main database to store all the information.
+{% comment %}
+A step may require the user to perform several tasks - break those tasks down into chunks, allowing the user to scan quickly to find their place if they navigated away from this screen to perform the task.
+An example might be creating a personal access token for the action to use and then storing it in secrets
+For UI based tasks, include the button or options the users should click
+If the task adds code, include the code in context (don't just show `needs: setup` show the entire `setup` and `dependent` jobs)
+{% endcomment %}
 
-## Notes
-- For the automation stack, I will be using Vagrant to automate the setting up of the virtual machine, and then I will be using bash script to create the architecture.
-- Set up the tools, cd into the vagrant dir, bring up the VMs, validate all the machines and able to communicate with each other and finally set up all the services in this order (MySQL, Memcached, RabbitMQ, Tomcat and Nginx).
-- Build the app and deploy
-- Verify from the browser
+### Another task chunk
 
-## Acknowledgments
-- Thanks to [imnowdevops](https://github.com/imnowdevops) for their inspiration.
-- This project uses [DDC Material](https://github.com/imnowdevops/ddc-material).
+## Step 2: Do the next thing
+
+{% comment %}
+Rinse and repeat, adding steps and tasks until the tutorial is complete
+Remember to show code snippets in context
+{% endcomment %}
+
+## Further reading
+
+{% comment %}
+Include a bulleted list of tutorials or articles the user can reference to extend the concepts taught in this tutorial
+{% endcomment %}
+
+- "[Article title](article-URL)"
