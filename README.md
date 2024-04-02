@@ -1,8 +1,7 @@
 ---
 title: Provision website manually via Vagrant
-shortTitle: <subject> # Max 31 characters
-intro: 'Article intro. See tips for a great intro below'
-product: "{{ optional product callout }}"
+shortTitle: Website setup # Max 31 characters
+intro: 'Provisong website manually via Vagrant on Ubuntu'
 type: tutorial
 topics:
   - <topic> # One or more from list of allowed topics: https://github.com/github/docs/blob/main/data/allowed-topics.js
