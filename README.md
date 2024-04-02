@@ -1,5 +1,5 @@
 ---
-title: Tutorial title
+title: Provision website manually via Vagrant
 shortTitle: <subject> # Max 31 characters
 intro: 'Article intro. See tips for a great intro below'
 product: "{{ optional product callout }}"
